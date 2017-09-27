@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aspcore", "aspcore\aspcore.csproj", "{36E2CE48-7EFF-4B03-ACEB-E9AE4CE5B34F}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "au-default", "au-default\", "{6E664621-ADEB-4D7D-9720-8CCEE9E80E90}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_38476"
+		Debug.AspNetCompiler.PhysicalPath = "au-default\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_38476\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_38476"
+		Release.AspNetCompiler.PhysicalPath = "au-default\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_38476\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "38476"
+		SlnRelativePath = "au-default\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "au-full", "au-full\", "{1CBD067B-211C-4C54-B21C-F9AEDD23920D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_38590"
+		Debug.AspNetCompiler.PhysicalPath = "au-full\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_38590\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_38590"
+		Release.AspNetCompiler.PhysicalPath = "au-full\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_38590\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "38590"
+		SlnRelativePath = "au-full\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36E2CE48-7EFF-4B03-ACEB-E9AE4CE5B34F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36E2CE48-7EFF-4B03-ACEB-E9AE4CE5B34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36E2CE48-7EFF-4B03-ACEB-E9AE4CE5B34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36E2CE48-7EFF-4B03-ACEB-E9AE4CE5B34F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E664621-ADEB-4D7D-9720-8CCEE9E80E90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E664621-ADEB-4D7D-9720-8CCEE9E80E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E664621-ADEB-4D7D-9720-8CCEE9E80E90}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E664621-ADEB-4D7D-9720-8CCEE9E80E90}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{1CBD067B-211C-4C54-B21C-F9AEDD23920D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CBD067B-211C-4C54-B21C-F9AEDD23920D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CBD067B-211C-4C54-B21C-F9AEDD23920D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CBD067B-211C-4C54-B21C-F9AEDD23920D}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F1E1F62-E3E1-4034-A846-25093E7109F8}
+	EndGlobalSection
+EndGlobal
